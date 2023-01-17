@@ -10,5 +10,7 @@ field.addEventListener('keydown', (event) => {
 
 button.addEventListener('click', (event) => {
     console.log(duplicateField.textContent);
-    
+    field.value = '';
+    duplicateField.textContent = '';
+    event.preventDefault();
 })
