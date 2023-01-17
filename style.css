@@ -1,0 +1,35 @@
+.button {
+    background-color: #FF4500;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.linkToMainPage {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+
+.p1 {
+    font-size: 24px;
+    color: red;
+    margin: 0 auto;
+}
+
+#consoleLog {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
