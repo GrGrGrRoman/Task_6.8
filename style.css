@@ -1,4 +1,4 @@
-.button {
+.button { /*кнопки на главной странице*/
     background-color: #FF4500;
     border: none;
     color: white;
@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 
-.linkToMainPage {
+.linkToMainPage { /*ссылка на главную страницу*/
     color: black;
     cursor: pointer;
     text-decoration: none;
@@ -19,17 +19,84 @@
     padding: 5px 10px;
     letter-spacing: 1px;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
     transition: .3s ease-in-out;
 }
 
-.p1 {
-    font-size: 24px;
+.p1 { /*текст в task1/index*/
+    font-size: 20px;
+    font-weight: 700;
     color: red;
     margin: 0 auto;
 }
 
-#consoleLog {
-    font-size: 20px;
+#consoleLog { /*task2*/
+    font-size: 18px;
     letter-spacing: 1px;
+}
+
+#alert { /*task2*/
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#prompt { /*task2*/
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.divT2 {
+    margin: 0 20px;
+}
+
+#trafficLight { /*task3*/
+    margin: 20px 20px
+}
+
+#link { /*task4*/
+    background-color: blue;
+    border: none;
+    color: gold;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#field { /*task5*/
+    border: 2px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#field:focus { /*task5*/
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#button { /*task5*/
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#duplicateField { /*task5*/
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.pT5 { /*task5*/
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 auto;
 }
